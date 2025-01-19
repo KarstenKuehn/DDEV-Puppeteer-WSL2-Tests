@@ -1,0 +1,17 @@
+{
+    "name": "karsten/html",
+    "autoload": {
+        "psr-4": {
+            "Karsten\\Html\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DDEV User",
+            "email": "nobody@example.com"
+        }
+    ],
+    "require": {
+        "symfony/process": "^7.2"
+    }
+}
