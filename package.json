@@ -2,6 +2,7 @@
   "name": "puppeteertests",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +12,8 @@
   "description": "",
   "dependencies": {
     "@sparticuz/chromium": "^131.0.1",
+    "dotenv": "^16.4.7",
+    "mariadb": "^3.4.0",
     "puppeteer": "^24.1.0",
     "puppeteer-core": "^24.1.0"
   }
