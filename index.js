@@ -1,5 +1,5 @@
-const puppeteer = require("puppeteer-core");
-const chromium = require("@sparticuz/chromium");
+import puppeteer from "puppeteer-core";
+import chromium from "@sparticuz/chromium";
 
 // Optional: If you'd like to use the new headless mode. "shell" is the default.
 // NOTE: Because we build the shell binary, this option does not work.
